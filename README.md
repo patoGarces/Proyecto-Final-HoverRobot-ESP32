@@ -1,16 +1,26 @@
-![Logo Institucional](https://github.com/JonatanBogadoUNLZ/PPS-Jonatan-Bogado/blob/9952aac097aca83a1aadfc26679fc7ec57369d82/LOGO%20AZUL%20HORIZONTAL%20-%20fondo%20transparente.png)
-# Universidad Nacional de Lomas de Zamora - Facultad de Ingeniería
+<h1 align="center">Universidad Nacional de Lomas de Zamora - Facultad de Ingeniería</h1>
 
-# HoverRobot ESP32
+![Logo Institucional](https://github.com/JonatanBogadoUNLZ/PPS-Jonatan-Bogado/blob/9952aac097aca83a1aadfc26679fc7ec57369d82/LOGO%20AZUL%20HORIZONTAL%20-%20fondo%20transparente.png)
+
+
+<h1 align="center">HoverRobot ESP32</h1>
+
 
 ![Prueba de balanceo](Multimedia/robot_path.gif)
 
 ## Introducción / Objetivo
 
-En la Universidad Nacional de Lomas de Zamora, nuestra Facultad de Ingeniería se dedica a la formación de profesionales en diversas ramas de la ingeniería.  
-Este repositorio corresponde al **proyecto final de Ingeniería Mecatrónica**, denominado **HoverRobot ESP32**.  
+La **Facultad de Ingeniería de la Universidad Nacional de Lomas de Zamora** impulsa proyectos orientados a la robótica, control y automatización.  
+Este repositorio corresponde al **Proyecto Final de Ingeniería Mecatrónica**, cuyo desarrollo se centra en un robot de balanceo autónomo, denominado **HoverRobot ESP32**.
 
-El objetivo de este proyecto es **diseñar y construir un robot de balanceo autónomo reutilizando la estructura y controladora de un hoverboard, reprogramada y controlada por una placa ESP32, incorporando un sistema de visión artificial y una aplicación móvil para control manual**.  
+El objetivo principal es **diseñar, modificar e integrar la estructura de un hoverboard como plataforma de locomoción**, incorporando:
+
+- Un **sistema de control dinámico** basado en un **ESP32**.  
+- Un **sensor inercial** para el equilibrio del robot.  
+- Un módulo de **visión artificial con cámara estéreo PS5 y Raspberry Pi 5**.  
+- Una **aplicación móvil** para control manual.  
+
+El proyecto busca explorar la interacción entre **control de estabilidad**, **procesamiento visual en tiempo real**, y **navegación autónoma** mediante ROS 2.
 
 
 ## Índice
@@ -26,18 +36,22 @@ El objetivo de este proyecto es **diseñar y construir un robot de balanceo aut�
 
 ## Descripción
 
-Este proyecto se basa en la implementación de un robot de balanceo tipo self-balancing utilizando la base de un hoverboard, controlado por una placa ESP32 custom.
-El sistema integra un sensor inercial MPU6050 para el control de estabilidad, motores brushless gestionados mediante la controladora original del hoverboard reprogramada, y un módulo de visión artificial basado en una cámara estéreo PS5 y Raspberry Pi 5.
+HoverRobot ESP32 es un **robot autoequilibrado** basado en la electrónica de potencia de un hoverboard.  
 
-Se complementa con:
+El sistema utiliza:
 
-Una aplicación móvil (Kotlin) para control manual del robot.
+- Una **placa ESP32 personalizada** para ejecutar el control de balanceo.  
+- Un **IMU MPU6050**, encargado de medir aceleraciones y velocidades angulares del chasis.  
+- Los **motores brushless originales** del hoverboard, controlados mediante el firmware reprogramado de su controladora.  
+- Un módulo de visión artificial compuesto por una **cámara estéreo PS5** y una **Raspberry Pi 5**, desde donde se ejecutan los nodos de **ROS 2** encargados de navegación y procesamiento de imágenes.
 
-Un módulo en ROS 2 (Python + OpenCV) para navegación autónoma y procesamiento de visión.
+Además, el robot cuenta con:
 
-Comunicación mediante sockets TCP entre los diferentes sistemas.
+- **Una aplicación móvil** desarrollada en **Kotlin** para operar el robot manualmente.  
+- **Comunicación TCP** entre la Raspberry Pi, la app y la placa principal ESP32.  
 
-El enfoque del proyecto es explorar el control dinámico de robots de balanceo y su integración con sistemas de visión y navegación autónoma.
+El proyecto integra áreas clave de la mecatrónica: **electrónica**, **control**, **procesamiento visual**, **automatización** y **robótica móvil**.
+
 
 ## Instrucciones de Uso
 
@@ -52,12 +66,12 @@ El enfoque del proyecto es explorar el control dinámico de robots de balanceo y
 
 ## Tecnologías Utilizadas
 
-- **Robótica / Control**: ESP32, motores brushless, controladora de hoverboard  
-- **Electrónica**: MPU6050, cámara estéreo PS5, placa ESP32 custom  
-- **Programación**: C, Python, Kotlin  
-- **Plataformas**: ROS 2, OpenCV, Raspberry Pi 5  
-- **Comunicación**: Sockets TCP  
-- **Visión / IA**: Procesamiento de imágenes, navegación autónoma  
+- **Control y Robótica**: ESP32, controladora hoverboard, motores brushless  
+- **Sensado**: IMU MPU6050, cámara estéreo PS5  
+- **Computación / Procesamiento**: Raspberry Pi 5, Python, C, Kotlin  
+- **Frameworks**: ROS 2 (Jazzy), OpenCV  
+- **Comunicación**: TCP sockets, UART  
+- **Visión Artificial**: extracción de características, flujo estéreo, navegación basada en percepción  
 
 ---
 
@@ -85,7 +99,8 @@ En carpeta 'Multimedia'
 
 ## Autor
 
-Este proyecto fue realizado por Patricio Garcés como parte de la carrera de Ingeniería Mecatrónica en la Facultad de Ingeniería de la Universidad Nacional de Lomas de Zamora.
+Proyecto realizado por **Patricio Garcés** como Trabajo Final de la carrera **Ingeniería Mecatrónica**,  
+Facultad de Ingeniería – Universidad Nacional de Lomas de Zamora.
 
 ---
 
