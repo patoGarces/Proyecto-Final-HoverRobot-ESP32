@@ -6,7 +6,7 @@
 <h1 align="center">HoverRobot ESP32</h1>
 
 
-![Prueba de balanceo](Multimedia/robot_path.gif)
+![Prueba de balanceo](Multimedia/robot_path2.gif)
 
 ## Introducción / Objetivo
 
