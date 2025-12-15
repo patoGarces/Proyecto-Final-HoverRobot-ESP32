@@ -113,13 +113,20 @@ El sistema se compone de tres subsistemas principales:
 
 <p align="center">
   <img src="Gantt/Gannt inicial proyecto final.png">
+  <em>Estimacion inicial: 221hs</em>
 </p>
 
 ### Gantt final
 
 <p align="center">
   <img src="Gantt/Gannt final proyecto final.png">
+  <em>Total de horas reales: 230hs + ongoing</em>
 </p>
+
+Si bien la estimación global fue cercana a la real, algunas tareas puntuales presentaron desvíos significativos debido a problemas técnicos no previstos, cuya resolución demandó más tiempo del estimado inicial.
+Estos desvíos se compensaron con otras tareas que resultaron menos complejas de lo esperado.
+
+### Desvío total: +9 h respecto a la estimación inicial
 
 ---
 
