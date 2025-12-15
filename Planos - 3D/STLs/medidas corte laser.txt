@@ -1,0 +1,4 @@
+Medidas:
+Base 1: 290x200
+Base lvl2: 250x160
+Base lvl3: 250x160
