@@ -5,7 +5,13 @@
 <h1 align="center">HoverRobot ESP32</h1>
 
 <p align="center">
-  <img src="Multimedia/robot_path2.gif">
+  <img src="Multimedia/robot_path2.gif"><br>
+  <em>Estabilizacion y control</em>
+</p>
+
+<p align="center">
+  <img src="Multimedia/NavegacionShort.gif"><br>
+  <em>Navegación autónoma con ROS2</em>
 </p>
 
 
@@ -34,6 +40,7 @@ El proyecto explora la interacción entre **estabilidad dinámica**, **visión e
 - [Tecnologías Utilizadas](tecnologias-utilizadas)
 - [Listado de Componentes](#listado-de-componentes)
 - [Esquemáticos](#esquemáticos)
+- [Diseño mecánico y planos](#diseño-mecánico-y-planos)
 - [Instrucciones de Uso](#instrucciones-de-uso)  
 - [Autor](#autor)  
 - [Repositorios Relacionados](#repositorios-relacionados)
@@ -181,6 +188,24 @@ El sistema se compone de tres subsistemas principales:
 </p>
 
 ---
+
+## Diseño mecánico y planos
+
+El diseño mecánico del robot fue desarrollado en CAD con SolidWork y documentado en archivos de fabricación, priorizando una estructura simple, modular y fácil de reproducir.
+
+<p align="center">
+  <img src="Multimedia/Vista general.PNG" width="350"><br>
+  <em>Vista general del robot</em>
+</p>
+
+En el repositorio se incluyen:
+- **Modelos STL** de las piezas impresas en 3D, fabricadas en **PLA**.
+- **Planos 2D en PDF** para corte láser correspondientes a las **tres bases estructurales**, diseñadas en **fibrofácil**:
+  - Base inferior: **9 mm** de espesor  
+  - Bases superior e intermedia: **3 mm** de espesor  
+
+Los archivos completos de diseño y fabricación se encuentran disponibles en la carpeta:
+👉 [PLANOS - 3D](PLANOS%20-%203D)
 
 ## Instrucciones de Uso
 
