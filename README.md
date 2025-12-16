@@ -38,6 +38,7 @@ El proyecto explora la interacción entre **estabilidad dinámica**, **visión e
 - [Planificación](#planificación)
 - [Tecnologías Utilizadas](tecnologias-utilizadas)
 - [Listado de Componentes](#listado-de-componentes)
+- [Cálculos](#cálculos)
 - [Esquemáticos](#esquemáticos)
 - [Diseño mecánico y planos](#diseño-mecánico-y-planos)
 - [Instrucciones de Uso](#instrucciones-de-uso)  
@@ -181,16 +182,29 @@ Estos desvíos se compensaron con otras tareas que resultaron menos complejas de
 
 ---
 
+## Cálculos
+
+En la carpeta [`Calculos`](./Calculos) se documentan los principales cálculos utilizados en el proyecto, tanto a nivel de control como de hardware.
+
+Se incluyen:
+- Cálculos para la obtención de **posición, velocidad y yaw** a partir de los sensores Hall de las ruedas.
+- Descripción de la **fusión del yaw** estimado por encoders con el yaw proveniente del **IMU**.
+- **Memoria de cálculo del sistema de alimentación**, donde se detalla el dimensionamiento de las fuentes a partir del consumo de cada subsistema.
+
+Esta sección complementa la implementación práctica del robot, mostrando el criterio de diseño detrás de las decisiones tomadas.
+
 ## Esquemáticos
 
 ### Mainboard
 <p align="center">
-  <img src="Esquematico/Esquematico_mainboard.png">
+  <img src="Esquematico/Esquematico_mainboard.png" width="650"><br>
+  <span><em>Esquemático general de la placa de control</em></span>
 </p>
 
 ### Fuentes
 <p align="center">
-  <img src="Esquematico/Esquematico_fuentes.png">
+  <img src="Esquematico/Esquematico_fuentes.png" width="650"><br>
+  <span><em>Esquemático de las fuentes de alimentación</em></span>
 </p>
 
 ---
@@ -200,7 +214,7 @@ Estos desvíos se compensaron con otras tareas que resultaron menos complejas de
 El diseño mecánico del robot fue desarrollado en CAD con SolidWork y documentado en archivos de fabricación, priorizando una estructura simple, modular y fácil de reproducir.
 
 <p align="center">
-  <img src="Multimedia/Vista general.PNG" width="350"><br>
+  <img src="Multimedia/Vista general.PNG" width="450"><br>
   <em>Vista general del robot</em>
 </p>
 
