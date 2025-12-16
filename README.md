@@ -224,8 +224,7 @@ En el repositorio se incluyen:
   - Base inferior: **9 mm** de espesor  
   - Bases superior e intermedia: **3 mm** de espesor  
 
-Los archivos completos de diseño y fabricación se encuentran disponibles en la carpeta:
-👉 [PLANOS - 3D](PLANOS%20-%203D)
+Los archivos completos de diseño y fabricación se encuentran disponibles en la carpeta [Planos - 3D](Planos%20-%203D)
 
 ## Instrucciones de Uso
 
