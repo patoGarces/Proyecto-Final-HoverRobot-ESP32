@@ -5,15 +5,14 @@
 <h1 align="center">HoverRobot ESP32</h1>
 
 <p align="center">
-  <img src="Multimedia/robot_path2.gif"><br>
-  <em>Estabilizacion y control</em>
+  <img src="Multimedia/robot_path2.gif" width="550"><br>
+  <em>Estabilización y control</em>
 </p>
 
 <p align="center">
-  <img src="Multimedia/NavegacionShort.gif"><br>
+  <img src="Multimedia/NavegacionShort.gif" width="550"><br>
   <em>Navegación autónoma con ROS2</em>
 </p>
-
 
 ## Introducción / Objetivo
 
