@@ -14,6 +14,15 @@
   <em>Navegación autónoma con ROS2</em>
 </p>
 
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=PdzagmnXbF4" target="_blank">
+    <img src="https://img.youtube.com/vi/PdzagmnXbF4/hqdefault.jpg" width="550">
+  </a>
+  <br>
+  <em>Demo HoverRobot</em>
+</p>
+
 ## Introducción / Objetivo
 
 La **Facultad de Ingeniería de la UNLZ** promueve proyectos orientados a la robótica, control y automatización.  
